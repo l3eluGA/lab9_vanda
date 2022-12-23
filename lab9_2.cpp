@@ -42,7 +42,6 @@ int main(){
 		getline(cin,name[i]);
 		cout << "Score of student " << i+1 << ": ";
 		cin>>score[i];
-		cin.ignore();
 		i++;
 	}
 	
